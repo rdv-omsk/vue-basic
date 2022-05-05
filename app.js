@@ -8,7 +8,6 @@ const App = {
 		}
 	},
 
-
 	methods: {
 		addNewNote() {
 			if (this.inputValue !== '') {
@@ -24,13 +23,11 @@ const App = {
 		}
 	},
 
-
 	computed: {
 		doubleCountComputed() {
 			return this.notes.length * 2
 		},
 	},
-
 
 	watch: {
 		inputValue(value) {
@@ -39,7 +36,6 @@ const App = {
 			} 
 		}
 	}
-
 
 }
 
